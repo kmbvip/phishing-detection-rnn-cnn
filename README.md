@@ -81,7 +81,7 @@ pip install tensorflow pandas numpy matplotlib seaborn scikit-learn
 ## 📥 Usage  
 1. Clone the repository:  
 ```bash
-git clone https://github.com/username/phishing-detection-rnn-cnn.git
+git clone https://github.com/frangelbarrera/phishing-detection-rnn-cnn.git
 ```
 2. Load the trained model:  
 ```python
