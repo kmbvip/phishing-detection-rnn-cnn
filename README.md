@@ -1,6 +1,8 @@
 ---
 
 # Offline Phishing Detection Model for Websites Using Recurrent and Convolutional Neural Networks
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/frangelbarrera/phishing-detection-rnn-cnn/blob/main/URL_Phishing_Detection.ipynb)
+
 
 ## 📌 Description  
 This project implements an **offline** phishing website detection model, capable of operating without an internet connection by leveraging the knowledge acquired during its training phase.  
